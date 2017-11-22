@@ -1,0 +1,5 @@
+Homework: 135.996 184
+Test 1: 49 60
+Test 2: 59 69
+Projects: 443 500
+Final Exam: 106 112

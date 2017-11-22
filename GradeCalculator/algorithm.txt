@@ -1,0 +1,105 @@
+
+////////////////////////////
+        OLD CODE
+
+        System.out.print("Enter your homework and lab grade: ");
+        if (scan.hasNextDouble()) {
+          homework = scan.nextDouble();
+        } else {
+          System.out.println("Incorrect value! Re-run the program and try again.");
+          System.exit(0);
+        }
+        System.out.print("Enter the total points possible for homework and labs: ");
+        if (scan.hasNextDouble()) {
+          maxHomeworkPoints = scan.nextDouble();
+        } else {
+          System.out.println("Incorrect value! Re-run the program and try again.");
+          System.exit(0);
+        }
+
+        /*
+         * READS TEST ONE & MAX
+         */
+        System.out.print("Enter your test one grade: ");
+        if (scan.hasNextDouble()) {
+          testOne = scan.nextDouble();
+        } else {
+          System.out.println("Incorrect value! Re-run the program and try again.");
+          System.exit(0);
+        }
+        System.out.print("Enter the total points possible for test one: ");
+        if (scan.hasNextDouble()) {
+          maxTestOnePoints = scan.nextDouble();
+        } else {
+          System.out.println("Incorrect value! Re-run the program and try again.");
+          System.exit(0);
+        }
+
+        /*
+         * READS TEST TWO & MAX
+         */
+        System.out.print("Enter your test two grade: ");
+        if (scan.hasNextDouble()) {
+          testTwo = scan.nextDouble();
+        } else {
+          System.out.println("Incorrect value! Re-run the program and try again.");
+          System.exit(0);
+        }
+        System.out.print("Enter the total points possible for test two: ");
+        if (scan.hasNextDouble()) {
+          maxTestTwoPoints = scan.nextDouble();
+        } else {
+          System.out.println("Incorrect value! Re-run the program and try again.");
+          System.exit(0);
+        }
+
+        //		// reads test three
+        //		System.out.print("Enter your test three grade: ");
+        //		if (scan.hasNextDouble()) {
+        //			testThree = scan.nextDouble();
+        //		} else {
+        //			System.out.println("Incorrect value! Re-run the program and try again.");
+        //			System.exit(0);
+        //		}
+        //		System.out.print("Enter the total points possible for test three: ");
+        //		if (scan.hasNextDouble()) {
+        //			maxTestThreePoints = scan.nextDouble();
+        //		} else {
+        //			System.out.println("Incorrect value! Re-run the program and try again.");
+        //			System.exit(0);
+        //		}
+        /*
+         * READS PROJECTS & MAX
+         */
+        System.out.print("Enter your project/quiz grades: ");
+        if (scan.hasNextDouble()) {
+          projects = scan.nextDouble();
+        } else {
+          System.out.println("Incorrect value! Re-run the program and try again.");
+          System.exit(0);
+        }
+        System.out.print("Enter the total points possible for projects/quizzes: ");
+        if (scan.hasNextDouble()) {
+          maxProjectsPoints = scan.nextDouble();
+        } else {
+          System.out.println("Incorrect value! Re-run the program and try again.");
+          System.exit(0);
+        }
+
+        /*
+         * reads in final exam grade and max grade
+         */
+        System.out.print("Enter your final exam grade: ");
+        if (scan.hasNextDouble()) {
+          finalExam = scan.nextDouble();
+        } else {
+          System.out.println("Incorrect value! Re-run the program and try again.");
+          System.exit(0);
+        }
+        System.out.print("Enter the total points possible for the final exam: ");
+        if (scan.hasNextDouble()) {
+          maxFinalExamPoints = scan.nextDouble();
+        } else {
+          System.out.println("Incorrect value! Re-run the program and try again.");
+          System.exit(0);
+        }
