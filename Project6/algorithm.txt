@@ -1,0 +1,26 @@
+- Enumerated types for CLASS Bicycle
+	- enum BikeType { ROAD, MOUNTAIN, HYBRID, CRUSIER }
+	- enum UserType { MEN, WOMEN, BOYS, GIRLS }
+	- enum FrameMaterial { STEEL, CARBON, ALUMINUM }
+	- enum BrakeType { CALIPER, CANTILEVER, LINEAR_PULL, DISC }
+	- enum WheelSize { 10, 12, 16, 18, 20, 24, 26, 29 }
+	- enum Condition { NEW, USED }
+	
+- check if weight and number of gears are negative
+- 
+
+	boolean done = false;
+		int[] validSize = {10, 12, 14, 16, 18, 20, 24, 26, 29 };
+		while (!done) {
+			for (int x = 0; x < validSize.length; x++) {
+				if (wheelSize == validSize[x]) {
+					this.wheelSize = wheelSize;
+					done = true;
+				} else throw new IllegalArgumentException("Invalid wheel size!");
+			}
+		} 
+		
+		if(wheelSize == 10 || wheelSize == 12 || wheelSize == 14 || wheelSize == 16 || wheelSize == 18
+				|| wheelSize == 20 || wheelSize == 24 || wheelSize == 26 || wheelSize == 29) {
+			this.wheelSize = wheelSize;
+		}
