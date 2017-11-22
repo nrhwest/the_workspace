@@ -1,0 +1,16 @@
+Find word method 
+	- user searches for the word in the file
+	- scanner reads file
+	- if the user’s word is found
+	- return the user word back to game method
+	- otherwise keep going
+
+Score of word method 
+	- prompts user to search for word
+	- calls on find method to search for word
+	- have wordCounter that counts number of times word appears
+
+Avg score of word method
+	- 
+
+	
