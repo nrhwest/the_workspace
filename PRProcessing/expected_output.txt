@@ -1,0 +1,43 @@
+1: Request #1 (time needed: 5) arrives with a priority of 1
+1: Request #1 begins processing (time needed: 5)
+2: Request #2 (time needed: 1) arrives with a priority of 4
+4: Request #3 (time needed: 10) arrives with a priority of 2
+5: Request #4 (time needed: 3) arrives with a priority of 1
+6: Request #1 finishes processing
+6: Request #1 leaves
+6: Request #4 begins processing (time needed: 3)
+7: Request #5 (time needed: 3) arrives with a priority of 3
+9: Request #6 (time needed: 8) arrives with a priority of 2
+9: Request #4 finishes processing
+9: Request #4 leaves
+9: Request #3 begins processing (time needed: 10)
+10: Request #7 (time needed: 2) arrives with a priority of 4
+12: Request #8 (time needed: 9) arrives with a priority of 1
+12: Request #8 begins processing (time needed: 9)
+13: Request #9 (time needed: 6) arrives with a priority of 2
+15: Request #10 (time needed: 5) arrives with a priority of 1
+21: Request #8 finishes processing
+21: Request #8 leaves
+21: Request #10 begins processing (time needed: 5)
+26: Request #10 finishes processing
+26: Request #10 leaves
+33: Request #3 finishes processing
+33: Request #3 leaves
+33: Request #6 begins processing (time needed: 8)
+41: Request #6 finishes processing
+41: Request #6 leaves
+41: Request #9 begins processing (time needed: 6)
+47: Request #9 finishes processing
+47: Request #9 leaves
+47: Request #5 begins processing (time needed: 3)
+50: Request #5 finishes processing
+50: Request #5 leaves
+50: Request #2 begins processing (time needed: 1)
+51: Request #2 finishes processing
+51: Request #2 leaves
+51: Request #7 begins processing (time needed: 2)
+53: Request #7 finishes processing
+53: Request #7 leaves
+
+Average wait time in  input queue:  19.3
+Average wait time in  active job stack:  1.4

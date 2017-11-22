@@ -1,0 +1,10 @@
+1	5	1	1	Leaking faucet, lab 7
+2	1	2	4	Repaint hallway, 4th floor
+3	10	4	2	Replace door lock, room 1b
+4	3	5	1	Insect infestation, 3rd floor kitchen
+5	3	7	3	Replace carpet, entry area
+6	8	9	2	Replace damaged ceiling tile, lab 3
+7	2	10	4	Repaint hallway, 3rd floor
+8	9	12	1	Broken window, lab 1
+9	6	13	2	Inspect fire extinguisher, all floors
+10	5	15	1	Roof leak in stairwell, back stairs

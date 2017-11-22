@@ -1,0 +1,121 @@
+
+
+- request class {}
+	- has instance variables id, entryTime, processingTime, priority, description
+	- processingTime - includes time need for request approval
+	- entryTime - must be later than all requests with lower ID number
+	- priority - 1 to 4, 1 being highest	
+- clerk class
+	- if clerk is free (isEmpty()), then handle request
+		- if not, store in queue of requests sorted by priority
+	- requests "wait" only if it remains in the stack or stack at the end of each time slice
+	- requests are processed for a time slice
+	- compute avgWaitTime = totalWaitTime / numOfRequests
+	- if two requests have the same priority, the request with the lowest arrival time comes first.
+	- clerk looks at pendingRequests stack, checks top of stack and the queue by highest priority
+	- two while loops, one checks the next request
+	- even when processing is done finished request gets thrown on the top of the stack
+-main class
+
+addRequest(PriorityQueue, Request)
+	if clerk is not active
+		processRequest(request)
+	else 
+		
+
+
+
+	
+questions
+	
+	
+/////////////////////
+
+//				StringBuffer builder = new StringBuffer("");
+//				String[] data = line.split(" ");
+//				System.out.println(data[0] ); // tested here
+//				for (int x = 0; x < data.length;) 
+//					data[x] = data[x].trim();
+//				for (int x = 4; x < data.length; x++)
+//					builder.append(x);
+
+///////////////////////////////////////
+
+
+//		Request request = null;
+//		Scanner lineReader = null;
+//		PrintWriter out = null;
+//		try {
+//			while (fileReader.hasNextLine()) {
+//				String line = fileReader.nextLine();
+//				lineReader = new Scanner(line);
+//				request = new Request(lineReader.nextInt(), lineReader.nextInt(),
+//						lineReader.nextInt(), lineReader.nextInt(), lineReader.nextLine());
+//				System.out.println(request);
+//				
+//			}
+//		} catch (IllegalArgumentException e) {
+//			e.printStackTrace();
+//		} catch (NullPointerException e) {
+//			e.printStackTrace();
+//		}
+
+-----------------------------------
+
+
+		//  Collections.sort(list);
+//		 for (Request e : list)
+//			 System.out.println(e);
+//		 for (Request req : list) {
+//		 requests.add(req);
+//		 }
+//		// while (!requests.isEmpty()) {
+		 // System.out.println(requests.poll());
+		 // }
+
+//		 System.out.println();
+//		 System.out.println("First in ArrayList: " + list.get(0));
+//		 System.out.println("Second in ArrayList: " + list.get(1));
+//		 System.out.println("Third in ArrayList: " + list.get(2));
+//		 System.out.println("Fourth in ArrayList: " + list.get(3));
+		 
+//		Collections.sort(list);
+
+/////////////////////////////////////////////
+for (Request temp : list) {
+			if (temp.getET() == clerk.getTime()) {
+				System.out.println("test");
+				requests.add(temp);
+				temp.setInputTime(clerk.getTime());
+				while (!requests.isEmpty()) {
+					// System.out.println("test");
+
+					System.out.println(clerk.getTime() + ": Request #" + request.getID()
+							+ " arrives with a priority of " + request.getPriority());
+					clerk.processRequest(request, requests);
+					clerk.incrementTime();
+				}
+			} else
+				clerk.incrementTime();
+		}
+		
+///////////////////////////////////////////////
+
+for (int clock = 0; clock < current.getPT(); clock++) {
+			
+		}
+		if (pendingRequests.isEmpty()) {
+			if (getTime() == current.getPT()) {
+				System.out.println(getTime() + ": Request #" + current.getID() + " begins processing");
+				System.out.println(getTime() + ": Request #" + current.getID() + "finishes processing");
+				list.remove();
+				System.out.println(getTime() + ": Request #" + current.getID() + "leaves");
+			} 
+		} else {
+			Request temp = list.peek();
+			if (temp.getPriority() < current.getPriority()) {
+				pendingRequests.push(current);
+				temp = list.poll();
+				processRequest(temp, list);
+			}
+		}
