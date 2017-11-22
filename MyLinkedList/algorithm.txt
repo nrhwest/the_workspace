@@ -1,0 +1,22 @@
+linkedList class should work with toArray 
+
+fee, fi, fo, fum 
+
+System.out.println(Arrays.toString(StringList.toArray())));     [farm, fee, fi, fo, fum, frame]
+
+public class TestMyLinkedList
+
+MyLinkedList<String> stringList;
+
+stringList = new MyLinkedList();
+stringList.add("fee") x5 with other strings
+end with .add("fee");
+print the stringList
+
+stringList.remove(4)
+stringList.add("frame");
+stringList.add(0, "farm");
+
+- jGRASP lets you see the structure of the linkedList, click and drag it out
+
+
