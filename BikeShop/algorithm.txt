@@ -1,0 +1,362 @@
+Tester
+	- do we need to test for 7 digits for phone number or just read it as a string
+	- do we need to test for color and brand of Bicycle?
+	- do we need to test for enum types of Bicycle?
+	
+	
+PRoject7
+	- while loop that reads the file needs to continue after it sets attributes of Customer
+	- figure out a way to set the attributes of Customer and Bicycle
+	- figure out a way to keep the Customer's bike attached to him/her
+
+"[  \\n\\t\\r]+"
+
+******* REMEMBER TO TELL KYLE ******************
+	- the reason why you're programming is only printing out one bike is because of the
+	toString() method in the Customer class. 
+	
+		public String toString() {
+		String output = "Customer: " + first + " " + last + "\n" 
+						 + "Phone: " + phone + "\n" 
+						 + "Email: " + email + "\n"
+						 + first + "'s Bikes:\n"
+						 + bikes.get(0);
+		return output;
+	- inside toString method, it's only printing the bike at 0 index, which holds one bike
+	so get the numOfBikes the customer object has and loop through printing the index
+	
+*************************************************
+
+
+try {
+			testCustomer.setEmailAddress("westemail.com");
+		} catch (IllegalArgumentException e) {
+			System.out.println("Test setEmailAddress('westemail.com'): " + e); }
+			
+	- process a customer until you get to a blank line, between lines is a customer and info
+	- maintain counter for number of customers
+	- then the number of bikes record can be used identify which typeN variables are being used
+	
+	
+				int bikeCount = 0;
+				if (txtScan.findInLine("Number of Bikes: ") != null) {
+					numOfBikes = txtScan.nextInt();
+					System.out.println("Number of bikes for " + customer.getFirstName() + " = " + numOfBikes);
+					while (bikeCount < numOfBikes) {
+						// sets the BikeType for the bike object
+						if (txtScan.findInLine("type: ") != null) {
+							String type = txtScan.next();
+							System.out.println("");
+							System.out.println(type);
+							bike.setType(Bicycle.BikeType.valueOf(type));	
+						} 
+						// sets the UserType for the bike object
+						else if (txtScan.findInLine("user: ") != null) {
+							String user = txtScan.next();
+							System.out.println(user);
+							bike.setUser(Bicycle.UserType.valueOf(user));
+						} 
+						// sets the FrameMaterial for the bike object
+						else if (txtScan.findInLine("frame: ")  != null) {
+							String frame = txtScan.next();
+							System.out.println(frame);
+							bike.setFrame(Bicycle.FrameMaterial.valueOf(frame));
+						}
+						// sets the BrakeType for the bike object
+						else if (txtScan.findInLine("brake: ") != null) {
+							String brake = txtScan.next();
+							System.out.println(brake);
+							bike.setBrakes(Bicycle.BrakeType.valueOf(brake));
+						}
+						// sets the Condition of the bike object
+						else if (txtScan.findInLine("condition: ") != null) {
+							String condition = txtScan.next();
+							System.out.println(condition);
+							bike.setCondition(Bicycle.Condition.valueOf(condition));
+						} 
+						// sets the wheelSize of the bike object
+						else if (txtScan.findInLine("wheelSize: ") != null) {
+							int wheelSize = txtScan.nextInt();
+							System.out.println(wheelSize);
+							bike.setWheelSize(wheelSize);
+						} 
+						// sets the weight of the bike object
+						else if (txtScan.findInLine("weight: ") != null) {
+							int weight = txtScan.nextInt();
+							System.out.println(weight);
+							bike.setWeight(weight);
+						} 
+						// sets the number of gears for the bike object
+						else if (txtScan.findInLine("numGears: ") != null) {
+							int numGears = txtScan.nextInt();
+							System.out.println(numGears);
+							bike.setNumGears(numGears);
+						} 
+						// sets the brand of the bike object
+						else if (txtScan.findInLine("brand: ") != null) {
+							String brand = txtScan.next();
+							System.out.println(brand);
+							bike.setBrand(brand);
+						} 
+						// sets the color of the bike object
+						else if (txtScan.findInLine("color: ") != null) {
+							String color = txtScan.next();
+							System.out.println(color);	
+							bike.setColor(color);
+						} else {
+							// System.out.println("Information not found!");
+						}
+						
+						
+						
+						
+	
+		try { 
+			while (fileReader.hasNextLine()) { // cycle through file 
+				String line = fileReader.nextLine(); 
+				Scanner txtScan = new Scanner(line);
+				String firstName = "", lastName = "", phoneNumber = "", email = "";
+				if (txtScan.findInLine("Customer:") != null) {
+					firstName = txtScan.next();
+					System.out.println(firstName);
+					lastName = txtScan.next(); 
+					System.out.println(lastName);
+				}
+				if (txtScan.findInLine("Phone:") != null) {
+					phoneNumber = txtScan.next();
+					System.out.println(phoneNumber);
+				}// else if (word.contains("Email: ")) {
+					//email = txtScan.next();
+				//}
+			
+				customer.setFirstName(firstName);
+				customer.setLastName(lastName);
+				customer.setPhoneNumber(phoneNumber);
+			  //customer.setEmailAddress(email);
+		 } catch (IllegalArgumentException e) {
+			 System.out.println("This is a string");
+		
+			System.out.println(customer.getFirstName() + " " + customer.getLastName() + " " + customer.getPhoneNumber() + " " + customer.getEmailAddress());
+		}
+		}
+		
+		
+		
+		try {
+			String firstName = "", lastName = "", phoneNumber = "", email = "", line;
+			int bikeCount = 0;
+			while (fileReader.hasNextLine()) {
+				line = fileReader.nextLine();
+				Scanner txtScan = new Scanner(line);
+				String[] token = line.split(":");
+				if (token[0].equals("Customer")) {
+					firstName = token[1].split(" ")[0]; 
+					System.out.println(firstName);
+					customer.setFirstName(firstName);
+					lastName = token[1].split(" ")[1];
+					System.out.println(lastName);
+					customer.setLastName(lastName);		
+				}
+				if (token[0].equals("Phone")) {
+					phoneNumber = token[1].split(" ")[0];
+					System.out.println(phoneNumber);
+					customer.setPhoneNumber(phoneNumber);
+				}
+				if (token[0].equals("Email")) {
+					email = token[1].split(" ")[0];
+					System.out.println(email);
+					customer.setEmailAddress(email);
+				}
+				
+				
+				customer.setPhoneNumber(phoneNumber);
+				customer.setEmailAddress(email);
+				
+				System.out.println(customer.getFirstName() + " " + customer.getLastName() + " " + customer.getPhoneNumber() + " " + customer.getEmailAddress());
+				
+;				
+			}
+		} catch (IllegalArgumentException e) {
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+		
+			// sets the name of the customer
+				if (txtScan.findInLine("Customer: ") != null) {
+					firstName = txtScan.next();
+					lastName = txtScan.next(); 
+					customer.setFirstName(firstName);
+					customer.setLastName(lastName);
+					System.out.println(customer.getFirstName() + " " + customer.getLastName());
+				}
+				// sets the phone number of the customer
+				if (txtScan.findInLine("Phone: ") != null) {
+					phoneNumber = txtScan.next();
+					phoneNumber = phoneNumber + " " + txtScan.next();
+					customer.setPhoneNumber(phoneNumber);
+					System.out.println(customer.getPhoneNumber());
+				}
+				// sets the email of the customer
+				if (txtScan.findInLine("Email: ") != null) {
+					email = txtScan.next();
+					customer.setEmailAddress(email);
+				    System.out.println(customer.getEmailAddress());
+				}
+				// sets the type of the bike of the bike object
+				if (txtScan.findInLine("type: ") != null) {
+					String type = txtScan.next();
+					// System.out.println("");
+					System.out.println("type =" + type);
+					bike.setType(Bicycle.BikeType.valueOf(type));	
+				} 
+				// sets the UserType for the bike object
+				if (txtScan.findInLine("user: ") != null) {
+					String user = txtScan.next();
+					System.out.println("user = " + user);
+					bike.setUser(Bicycle.UserType.valueOf(user));
+				} 
+				// sets the FrameMaterial for the bike object
+				if (txtScan.findInLine("frame: ")  != null) {
+					String frame = txtScan.next();
+					System.out.println("FrameMaterial = " + frame);
+					bike.setFrame(Bicycle.FrameMaterial.valueOf(frame));
+				}
+				// sets the BrakeType for the bike object
+				if (txtScan.findInLine("brake: ") != null) {
+					String brake = txtScan.next();
+					System.out.println("brake =  " + brake);
+					bike.setBrakes(Bicycle.BrakeType.valueOf(brake));
+				}
+				// sets the Condition of the bike object
+				if (txtScan.findInLine("condition: ") != null) {
+					String condition = txtScan.next();
+					System.out.println("condition =  " + condition);
+					bike.setCondition(Bicycle.Condition.valueOf(condition));
+				} 
+				// sets the wheelSize of the bike object
+				if (txtScan.findInLine("wheelSize: ") != null) {
+					int wheelSize = txtScan.nextInt();
+					System.out.println("wheelSize =  " + wheelSize);
+					bike.setWheelSize(wheelSize);
+				} 
+				// sets the weight of the bike object
+				if (txtScan.findInLine("weight: ") != null) {
+					int weight = txtScan.nextInt();
+					System.out.println("weight =  " + weight);
+					bike.setWeight(weight);
+				} 
+				// sets the number of gears for the bike object
+				if (txtScan.findInLine("numGears: ") != null) {
+					int numGears = txtScan.nextInt();
+					System.out.println("numGears =  " + numGears);
+					bike.setNumGears(numGears);
+				} 
+				// sets the brand of the bike object
+				if (txtScan.findInLine("brand: ") != null) {
+					String brand = txtScan.next();
+					System.out.println("brand =  " + brand);
+					bike.setBrand(brand);
+				} 
+				// sets the color of the bike object
+				if (txtScan.findInLine("color: ") != null) {
+					String color = txtScan.next();
+					System.out.println("color =  " + color);	
+					bike.setColor(color);
+				} else {
+					// System.out.println("Information not found!");
+				}
+				
+				
+				
+			––––––––––––––––––––––––––––––––––––––––––	
+				
+				
+				
+while (fileReader.hasNextLine()) { 
+				String line = fileReader.nextLine(); 
+				Scanner txtScan = new Scanner(line);
+				String[] contents = line.split(":");
+				String firstName = "", lastName = "", phoneNumber = "", email = "";
+				int numOfBikes = 0;
+				for (int x = 0; x < contents.length; x++) {
+					System.out.println(line + "\n");
+					System.out.println(line.split(" ") + "\n");
+					// System.out.println("This int is a line in the file=  "+ x);
+					if (contents[x].equals("Customer")) {
+						firstName = contents[x + 1].split(" ")[1];
+						// System.out.println("firstName = " + contents[x]);
+						// System.out.println("lineIndex = " + x);
+						// lastName = txtScan.next(contents[0]);
+						// System.out.println(firstName);
+					}
+				}
+				
+
+//				int bikeCount = 0;
+//				// gets the number of bikes the customer has to create the bike
+//				if (txtScan.findInLine("Number of Bikes: ") != null) {
+//					numOfBikes = txtScan.nextInt();
+//					System.out.println(numOfBikes);
+//					String properties = txtScan.nextLine();
+//					System.out.println(properties);
+//					String[] propertiesList = properties.split("[  \\n\\t\\r]+");
+//					// cycles through an array of properties
+//					for (int x = 0; x < propertiesList.length; x++) {
+//						// sets the BikeType of the bike
+//						if (propertiesList[x].equals("type")) {
+//							String type = propertiesList[x + 1].split(" ")[0];
+//							bike.setType(Bicycle.BikeType.valueOf(type));
+//							System.out.println(bike.getType());
+//						}
+//						// sets the UserType of the bike
+//						else if (propertiesList[x].equals("user")) {
+//							String user = propertiesList[x + 1].split(" ")[0];
+//							bike.setUser(Bicycle.UserType.valueOf(user));
+//						}
+//						// sets the FrameMaterial of the bike
+//						else if (propertiesList[x].equals("frame")) {
+//							String frame = propertiesList[x + 1].split(" ")[0];
+//							bike.setFrame(Bicycle.FrameMaterial.valueOf(frame));
+//						}
+//						// sets the BrakeType of the bike
+//						else if (propertiesList[x].equals("brakes")) {
+//							String brakes = propertiesList[x + 1].split(" ")[0];
+//							bike.setBrakes(Bicycle.BrakeType.valueOf(brakes));
+//						}
+//						// sets the Condition of the bike
+//						else if (propertiesList[x].equals("condition")) {
+//							String condition = propertiesList[x + 1].split(" ")[0];
+//							bike.setCondition(Bicycle.Condition.valueOf(condition));
+//						}
+//						// sets the wheelSize of the bike
+//						else if (propertiesList[x].equals("wheelSize")) {
+//							int wheelSize = Integer.parseInt(propertiesList[x + 1].split(" ")[0]);
+//							bike.setWheelSize(wheelSize);
+//						}
+//						// sets the weight of the bike
+//						else if (propertiesList[x].equals("weight")) {
+//							int weight = Integer.parseInt(propertiesList[x + 1].split(" ")[0]);
+//							bike.setWeight(weight);
+//						}
+//						// sets the number of gears of the bike
+//						else if (propertiesList[x].equals("numGears")) {
+//							int numGears = Integer.parseInt(propertiesList[x + 1].split(" ")[0]);
+//							bike.setNumGears(numGears);
+//						}
+//						// sets the brand of the bike
+//						else if (propertiesList[x].equals("brand")) {
+//							String brand = propertiesList[x + 1].split(" ")[0];
+//							bike.setBrand(brand);
+//						}
+//						// sets the color of the bike
+//						else if (propertiesList[x].equals("color")) {
+//							String color = propertiesList[x + 1].split(" ")[0];
+//							bike.setColor(color);
+//						}
+//						// if no information is found
+//						else {
+//							System.out.println("Information not found!");
+//						}

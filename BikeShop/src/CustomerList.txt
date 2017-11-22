@@ -1,0 +1,562 @@
+Customer: Daniel Adams
+Phone: (677) 975-4342
+Email: Adams@email.net
+Number of Bikes: 1
+type: Cruiser user: Girls frame: Carbon brakes: Disc condition: New wheelSize: 24 weight: 15 numGears: 13  brand: Royalbaby color: yellow
+
+Customer: James Agliano
+Phone: (780) 213-0270
+Email: Agliano@email.net
+Number of Bikes: 3
+type: Mountain user: Women frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 9 numGears: 4  brand: Schwinn color: white
+type: Hybrid user: Men frame: Aluminum brakes: LinearPull condition: New wheelSize: 24 weight: 17 numGears: 13  brand: Razor color: black
+type: Hybrid user: Women frame: Aluminum brakes: Disc condition: New wheelSize: 24 weight: 13 numGears: 18  brand: GMC color: red
+
+Customer: Justin Akan-Etuk
+Phone: (612) 744-4138
+Email: Akan-Etuk@email.net
+Number of Bikes: 1
+type: Cruiser user: Girls frame: Steel brakes: Caliper condition: New wheelSize: 24 weight: 10 numGears: 20  brand: GMC color: pink
+
+Customer: Nathaniel Armentrout
+Phone: (137) 925-3283
+Email: Armentrout@email.net
+Number of Bikes: 3
+type: Cruiser user: Men frame: Carbon brakes: Disc condition: New wheelSize: 24 weight: 4 numGears: 7  brand: Royalbaby color: red
+type: Road user: Boys frame: Aluminum brakes: LinearPull condition: New wheelSize: 24 weight: 16 numGears: 10  brand: Vilano color: white
+type: Mountain user: Men frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 14 numGears: 7  brand: Royalbaby color: yellow
+
+Customer: Benjamin Bolster
+Phone: (367) 451-4487
+Email: Bolster@email.net
+Number of Bikes: 0
+
+Customer: Kyle Bui
+Phone: (146) 206-2835
+Email: Bui@email.net
+Number of Bikes: 2
+type: Mountain user: Boys frame: Steel brakes: Cantilever condition: New wheelSize: 24 weight: 3 numGears: 8  brand: Royalbaby color: orange
+type: Cruiser user: Boys frame: Carbon brakes: Cantilever condition: New wheelSize: 24 weight: 20 numGears: 25  brand: Roadmaster color: pink
+
+Customer: Abigail Byram
+Phone: (746) 682-2582
+Email: Byram@email.net
+Number of Bikes: 0
+
+Customer: Andrew Caudell
+Phone: (527) 338-5535
+Email: Caudell@email.net
+Number of Bikes: 3
+type: Mountain user: Women frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 9 numGears: 4  brand: Schwinn color: white
+type: Road user: Girls frame: Steel brakes: Caliper condition: New wheelSize: 24 weight: 17 numGears: 7  brand: Roadmaster color: orange
+type: Mountain user: Boys frame: Aluminum brakes: LinearPull condition: New wheelSize: 24 weight: 10 numGears: 25  brand: GMC color: black
+
+Customer: Zachary Ching
+Phone: (819) 127-9471
+Email: Ching@email.net
+Number of Bikes: 1
+type: Mountain user: Boys frame: Steel brakes: Disc condition: New wheelSize: 24 weight: 11 numGears: 15  brand: Schwinn color: grey
+
+Customer: Riley Coron
+Phone: (551) 243-5431
+Email: Coron@email.net
+Number of Bikes: 2
+type: Road user: Women frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 2 numGears: 15  brand: Razor color: white
+type: Cruiser user: Men frame: Aluminum brakes: LinearPull condition: New wheelSize: 24 weight: 9 numGears: 4  brand: Roadmaster color: red
+
+Customer: Christopher D'Silva
+Phone: (988) 266-5496
+Email: D'Silva@email.net
+Number of Bikes: 3
+type: Hybrid user: Men frame: Aluminum brakes: LinearPull condition: New wheelSize: 24 weight: 17 numGears: 13  brand: Razor color: black
+type: Hybrid user: Women frame: Carbon brakes: Cantilever condition: New wheelSize: 24 weight: 11 numGears: 10  brand: Takara color: yellow
+type: Mountain user: Women frame: Carbon brakes: Caliper condition: New wheelSize: 24 weight: 4 numGears: 4  brand: GMC color: red
+
+Customer: Logan Dawkins
+Phone: (859) 675-0219
+Email: Dawkins@email.net
+Number of Bikes: 1
+type: Road user: Men frame: Steel brakes: Cantilever condition: New wheelSize: 24 weight: 12 numGears: 13  brand: GMC color: yellow
+
+Customer: Stephen Dean
+Phone: (613) 813-1444
+Email: Dean@email.net
+Number of Bikes: 1
+type: Hybrid user: Boys frame: Aluminum brakes: Caliper condition: New wheelSize: 24 weight: 14 numGears: 0  brand: Takara color: orange
+
+Customer: Sonali Dixit
+Phone: (811) 983-5443
+Email: Dixit@email.net
+Number of Bikes: 0
+
+Customer: Richard Dotson
+Phone: (749) 762-0290
+Email: Dotson@email.net
+Number of Bikes: 1
+type: Cruiser user: Girls frame: Steel brakes: Caliper condition: New wheelSize: 24 weight: 2 numGears: 15  brand: Northwoods color: orange
+
+Customer: Ryan Duong
+Phone: (702) 212-6966
+Email: Duong@email.net
+Number of Bikes: 3
+type: Mountain user: Girls frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 1 numGears: 3  brand: Firmstrong color: red
+type: Cruiser user: Men frame: Aluminum brakes: Disc condition: New wheelSize: 24 weight: 11 numGears: 16  brand: Vilano color: orange
+type: Hybrid user: Girls frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 15 numGears: 25  brand: Northwoods color: yellow
+
+Customer: Jessica Estok
+Phone: (445) 361-7453
+Email: Estok@email.net
+Number of Bikes: 1
+type: Cruiser user: Girls frame: Steel brakes: Cantilever condition: New wheelSize: 24 weight: 2 numGears: 8  brand: Schwinn color: orange
+
+Customer: Kelly Flounlacker
+Phone: (457) 771-2209
+Email: Flounlacker@email.net
+Number of Bikes: 2
+type: Cruiser user: Boys frame: Aluminum brakes: Disc condition: New wheelSize: 24 weight: 12 numGears: 21  brand: Vilano color: red
+type: Hybrid user: Girls frame: Carbon brakes: Disc condition: New wheelSize: 24 weight: 19 numGears: 4  brand: Vilano color: yellow
+
+Customer: Jonathan Funaki
+Phone: (907) 677-6455
+Email: Funaki@email.net
+Number of Bikes: 3
+type: Cruiser user: Girls frame: Steel brakes: Caliper condition: New wheelSize: 24 weight: 2 numGears: 15  brand: Northwoods color: orange
+type: Road user: Girls frame: Aluminum brakes: Caliper condition: New wheelSize: 24 weight: 10 numGears: 20  brand: Firmstrong color: orange
+type: Hybrid user: Men frame: Steel brakes: Caliper condition: New wheelSize: 24 weight: 20 numGears: 4  brand: GMC color: green
+
+Customer: Andrew Garcia
+Phone: (971) 658-4083
+Email: Garcia@email.net
+Number of Bikes: 2
+type: Mountain user: Girls frame: Aluminum brakes: Caliper condition: New wheelSize: 24 weight: 16 numGears: 18  brand: Roadmaster color: yellow
+type: Road user: Men frame: Steel brakes: LinearPull condition: New wheelSize: 24 weight: 8 numGears: 2  brand: GMC color: yellow
+
+Customer: Neel Gohil
+Phone: (321) 818-7855
+Email: Gohil@email.net
+Number of Bikes: 3
+type: Hybrid user: Men frame: Aluminum brakes: Disc condition: New wheelSize: 24 weight: 8 numGears: 21  brand: Roadmaster color: red
+type: Mountain user: Girls frame: Carbon brakes: Disc condition: New wheelSize: 24 weight: 16 numGears: 10  brand: GMC color: red
+type: Cruiser user: Women frame: Carbon brakes: Cantilever condition: New wheelSize: 24 weight: 18 numGears: 7  brand: Razor color: green
+
+Customer: Sailasya Gundlapudi
+Phone: (459) 313-3639
+Email: Gundlapudi@email.net
+Number of Bikes: 3
+type: Cruiser user: Men frame: Aluminum brakes: LinearPull condition: New wheelSize: 24 weight: 9 numGears: 4  brand: Roadmaster color: red
+type: Hybrid user: Girls frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 15 numGears: 25  brand: Northwoods color: yellow
+type: Mountain user: Girls frame: Carbon brakes: Disc condition: New wheelSize: 24 weight: 16 numGears: 10  brand: GMC color: red
+
+Customer: Baffour Gyamfi
+Phone: (767) 196-3190
+Email: Gyamfi@email.net
+Number of Bikes: 3
+type: Mountain user: Boys frame: Aluminum brakes: LinearPull condition: New wheelSize: 24 weight: 10 numGears: 25  brand: GMC color: black
+type: Cruiser user: Boys frame: Aluminum brakes: Cantilever condition: New wheelSize: 24 weight: 16 numGears: 4  brand: Schwinn color: grey
+type: Road user: Women frame: Carbon brakes: Cantilever condition: New wheelSize: 24 weight: 2 numGears: 4  brand: Roadmaster color: blue
+
+Customer: Alexander Haight
+Phone: (996) 563-1192
+Email: Haight@email.net
+Number of Bikes: 2
+type: Hybrid user: Men frame: Carbon brakes: Caliper condition: New wheelSize: 24 weight: 16 numGears: 1  brand: Schwinn color: grey
+type: Cruiser user: Girls frame: Steel brakes: Caliper condition: New wheelSize: 24 weight: 2 numGears: 15  brand: Northwoods color: orange
+
+Customer: Rachael Harris
+Phone: (657) 117-6534
+Email: Harris@email.net
+Number of Bikes: 1
+type: Cruiser user: Men frame: Carbon brakes: Disc condition: New wheelSize: 24 weight: 12 numGears: 9  brand: Takara color: black
+
+Customer: Donald Herndon
+Phone: (741) 561-9723
+Email: Herndon@email.net
+Number of Bikes: 1
+type: Road user: Women frame: Carbon brakes: Caliper condition: New wheelSize: 24 weight: 4 numGears: 20  brand: Northwoods color: black
+
+Customer: Addison Hodges
+Phone: (982) 949-1406
+Email: Hodges@email.net
+Number of Bikes: 3
+type: Road user: Girls frame: Aluminum brakes: LinearPull condition: New wheelSize: 24 weight: 4 numGears: 6  brand: Schwinn color: orange
+type: Road user: Men frame: Steel brakes: LinearPull condition: New wheelSize: 24 weight: 8 numGears: 2  brand: GMC color: yellow
+type: Cruiser user: Boys frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 3 numGears: 15  brand: Schwinn color: black
+
+Customer: Alwin Hollebrandse
+Phone: (285) 627-3922
+Email: Hollebrandse@email.net
+Number of Bikes: 3
+type: Hybrid user: Girls frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 15 numGears: 25  brand: Northwoods color: yellow
+type: Hybrid user: Women frame: Aluminum brakes: Disc condition: New wheelSize: 24 weight: 13 numGears: 18  brand: GMC color: red
+type: Hybrid user: Women frame: Steel brakes: Caliper condition: New wheelSize: 24 weight: 9 numGears: 19  brand: Schwinn color: red
+
+Customer: Azza Hussein
+Phone: (192) 729-3755
+Email: Hussein@email.net
+Number of Bikes: 2
+type: Cruiser user: Men frame: Aluminum brakes: LinearPull condition: New wheelSize: 24 weight: 9 numGears: 4  brand: Roadmaster color: red
+type: Road user: Girls frame: Aluminum brakes: LinearPull condition: New wheelSize: 24 weight: 4 numGears: 6  brand: Schwinn color: orange
+
+Customer: Kazi Islam
+Phone: (954) 407-4092
+Email: Islam@email.net
+Number of Bikes: 1
+type: Road user: Men frame: Steel brakes: LinearPull condition: New wheelSize: 24 weight: 8 numGears: 2  brand: GMC color: yellow
+
+Customer: Aarthi Iyer
+Phone: (901) 662-6379
+Email: Iyer@email.net
+Number of Bikes: 0
+
+Customer: Amay Iyer
+Phone: (765) 132-4728
+Email: Iyer@email.net
+Number of Bikes: 1
+type: Cruiser user: Girls frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 18 numGears: 20  brand: Vilano color: blue
+
+Customer: Morgan Jones
+Phone: (264) 376-3984
+Email: Jones@email.net
+Number of Bikes: 3
+type: Hybrid user: Men frame: Aluminum brakes: Disc condition: New wheelSize: 24 weight: 8 numGears: 21  brand: Roadmaster color: red
+type: Road user: Men frame: Aluminum brakes: Caliper condition: New wheelSize: 24 weight: 10 numGears: 24  brand: Northwoods color: orange
+type: Road user: Girls frame: Steel brakes: Cantilever condition: New wheelSize: 24 weight: 7 numGears: 13  brand: Razor color: black
+
+Customer: Robert Kalish
+Phone: (272) 746-6571
+Email: Kalish@email.net
+Number of Bikes: 2
+type: Hybrid user: Men frame: Steel brakes: Caliper condition: New wheelSize: 24 weight: 19 numGears: 6  brand: Firmstrong color: white
+type: Cruiser user: Boys frame: Steel brakes: Cantilever condition: New wheelSize: 24 weight: 11 numGears: 23  brand: Royalbaby color: yellow
+
+Customer: Shivani Kanungo
+Phone: (499) 229-0665
+Email: Kanungo@email.net
+Number of Bikes: 1
+type: Hybrid user: Men frame: Aluminum brakes: LinearPull condition: New wheelSize: 24 weight: 6 numGears: 4  brand: Takara color: red
+
+Customer: Megan Kim
+Phone: (153) 589-1435
+Email: Kim@email.net
+Number of Bikes: 0
+
+Customer: Aaron Lee
+Phone: (125) 391-1905
+Email: Lee@email.net
+Number of Bikes: 2
+type: Mountain user: Men frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 14 numGears: 7  brand: Royalbaby color: yellow
+type: Mountain user: Girls frame: Aluminum brakes: Caliper condition: New wheelSize: 24 weight: 16 numGears: 18  brand: Roadmaster color: yellow
+
+Customer: David Lee
+Phone: (956) 505-1347
+Email: Lee@email.net
+Number of Bikes: 0
+
+Customer: Junhui Li
+Phone: (329) 220-2020
+Email: Li@email.net
+Number of Bikes: 3
+type: Cruiser user: Boys frame: Aluminum brakes: Cantilever condition: New wheelSize: 24 weight: 16 numGears: 4  brand: Schwinn color: grey
+type: Cruiser user: Girls frame: Steel brakes: Caliper condition: New wheelSize: 24 weight: 10 numGears: 20  brand: GMC color: pink
+type: Mountain user: Boys frame: Carbon brakes: Cantilever condition: New wheelSize: 24 weight: 5 numGears: 0  brand: Razor color: blue
+
+Customer: Zun Lin
+Phone: (467) 382-1791
+Email: Lin@email.net
+Number of Bikes: 2
+type: Mountain user: Girls frame: Steel brakes: Caliper condition: New wheelSize: 24 weight: 16 numGears: 13  brand: Vilano color: green
+type: Hybrid user: Boys frame: Aluminum brakes: Caliper condition: New wheelSize: 24 weight: 14 numGears: 0  brand: Takara color: orange
+
+Customer: Maxwell Lindquist
+Phone: (878) 307-4333
+Email: Lindquist@email.net
+Number of Bikes: 2
+type: Cruiser user: Men frame: Carbon brakes: Disc condition: New wheelSize: 24 weight: 11 numGears: 11  brand: Royalbaby color: green
+type: Hybrid user: Men frame: Carbon brakes: Disc condition: New wheelSize: 24 weight: 10 numGears: 1  brand: Royalbaby color: pink
+
+Customer: Justin Liverman
+Phone: (560) 723-8627
+Email: Liverman@email.net
+Number of Bikes: 1
+type: Hybrid user: Women frame: Steel brakes: LinearPull condition: New wheelSize: 24 weight: 12 numGears: 5  brand: Roadmaster color: white
+
+Customer: Joseph Longo
+Phone: (754) 131-7987
+Email: Longo@email.net
+Number of Bikes: 1
+type: Hybrid user: Men frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 20 numGears: 19  brand: Razor color: green
+
+Customer: Victorianna Manocchio
+Phone: (871) 527-7334
+Email: Manocchio@email.net
+Number of Bikes: 1
+type: Mountain user: Women frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 9 numGears: 4  brand: Schwinn color: white
+
+Customer: Connor Massaro
+Phone: (420) 495-7333
+Email: Massaro@email.net
+Number of Bikes: 2
+type: Cruiser user: Girls frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 11 numGears: 25  brand: Firmstrong color: green
+type: Cruiser user: Boys frame: Steel brakes: Disc condition: New wheelSize: 24 weight: 4 numGears: 0  brand: Firmstrong color: pink
+
+Customer: Yonathan Mekonnen
+Phone: (730) 723-3373
+Email: Mekonnen@email.net
+Number of Bikes: 0
+
+Customer: Eric Neiman
+Phone: (822) 936-4964
+Email: Neiman@email.net
+Number of Bikes: 2
+type: Mountain user: Women frame: Carbon brakes: Caliper condition: New wheelSize: 24 weight: 4 numGears: 4  brand: GMC color: red
+type: Road user: Men frame: Aluminum brakes: Disc condition: New wheelSize: 24 weight: 10 numGears: 24  brand: Royalbaby color: yellow
+
+Customer: Anhhuy Nguyen
+Phone: (486) 617-1775
+Email: Nguyen@email.net
+Number of Bikes: 3
+type: Cruiser user: Boys frame: Aluminum brakes: Disc condition: New wheelSize: 24 weight: 12 numGears: 21  brand: Vilano color: red
+type: Cruiser user: Girls frame: Steel brakes: Cantilever condition: New wheelSize: 24 weight: 2 numGears: 8  brand: Schwinn color: orange
+type: Cruiser user: Women frame: Carbon brakes: Cantilever condition: New wheelSize: 24 weight: 18 numGears: 7  brand: Razor color: green
+
+Customer: Minh Nguyen
+Phone: (331) 232-8579
+Email: Nguyen@email.net
+Number of Bikes: 2
+type: Hybrid user: Boys frame: Carbon brakes: Cantilever condition: New wheelSize: 24 weight: 8 numGears: 26  brand: Vilano color: white
+type: Hybrid user: Boys frame: Aluminum brakes: Cantilever condition: New wheelSize: 24 weight: 6 numGears: 13  brand: Takara color: orange
+
+Customer: Jeffrey Orrock
+Phone: (663) 792-9232
+Email: Orrock@email.net
+Number of Bikes: 1
+type: Road user: Girls frame: Aluminum brakes: LinearPull condition: New wheelSize: 24 weight: 18 numGears: 12  brand: Takara color: green
+
+Customer: Heran Patel
+Phone: (332) 597-0884
+Email: Patel@email.net
+Number of Bikes: 1
+type: Hybrid user: Men frame: Steel brakes: Caliper condition: New wheelSize: 24 weight: 20 numGears: 4  brand: GMC color: green
+
+Customer: Alessandra Pena-Amezquita
+Phone: (924) 945-5258
+Email: Pena-Amezquita@email.net
+Number of Bikes: 1
+type: Hybrid user: Women frame: Steel brakes: LinearPull condition: New wheelSize: 24 weight: 12 numGears: 5  brand: Roadmaster color: white
+
+Customer: Steven Peng
+Phone: (651) 196-3938
+Email: Peng@email.net
+Number of Bikes: 1
+type: Hybrid user: Men frame: Steel brakes: Caliper condition: New wheelSize: 24 weight: 20 numGears: 4  brand: GMC color: green
+
+Customer: Ian Perdue
+Phone: (444) 316-4138
+Email: Perdue@email.net
+Number of Bikes: 3
+type: Hybrid user: Girls frame: Carbon brakes: Disc condition: New wheelSize: 24 weight: 19 numGears: 4  brand: Vilano color: yellow
+type: Mountain user: Girls frame: Steel brakes: Cantilever condition: New wheelSize: 24 weight: 20 numGears: 10  brand: Roadmaster color: yellow
+type: Road user: Women frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 2 numGears: 15  brand: Razor color: white
+
+Customer: Derek-Duy Pham
+Phone: (848) 746-7039
+Email: Pham@email.net
+Number of Bikes: 3
+type: Hybrid user: Men frame: Aluminum brakes: LinearPull condition: New wheelSize: 24 weight: 17 numGears: 4  brand: GMC color: orange
+type: Cruiser user: Girls frame: Steel brakes: Caliper condition: New wheelSize: 24 weight: 10 numGears: 20  brand: GMC color: pink
+type: Mountain user: Women frame: Carbon brakes: Caliper condition: New wheelSize: 24 weight: 4 numGears: 4  brand: GMC color: red
+
+Customer: Kannan Pillappan
+Phone: (335) 839-6196
+Email: Pillappan@email.net
+Number of Bikes: 2
+type: Hybrid user: Girls frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 15 numGears: 25  brand: Northwoods color: yellow
+type: Mountain user: Boys frame: Carbon brakes: Caliper condition: New wheelSize: 24 weight: 20 numGears: 25  brand: Schwinn color: black
+
+Customer: Matthew Pointer
+Phone: (806) 425-7718
+Email: Pointer@email.net
+Number of Bikes: 3
+type: Cruiser user: Men frame: Carbon brakes: Disc condition: New wheelSize: 24 weight: 4 numGears: 7  brand: Royalbaby color: red
+type: Mountain user: Girls frame: Aluminum brakes: Caliper condition: New wheelSize: 24 weight: 16 numGears: 18  brand: Roadmaster color: yellow
+type: Mountain user: Girls frame: Aluminum brakes: Cantilever condition: New wheelSize: 24 weight: 11 numGears: 2  brand: Takara color: grey
+
+Customer: Lal Sandhya
+Phone: (774) 307-4243
+Email: Sandhya@email.net
+Number of Bikes: 3
+type: Road user: Boys frame: Steel brakes: Cantilever condition: New wheelSize: 24 weight: 5 numGears: 9  brand: Schwinn color: yellow
+type: Hybrid user: Women frame: Steel brakes: LinearPull condition: New wheelSize: 24 weight: 12 numGears: 5  brand: Roadmaster color: white
+type: Mountain user: Girls frame: Aluminum brakes: Caliper condition: New wheelSize: 24 weight: 16 numGears: 18  brand: Roadmaster color: yellow
+
+Customer: Mosammat Sarker
+Phone: (299) 707-2258
+Email: Sarker@email.net
+Number of Bikes: 3
+type: Cruiser user: Men frame: Carbon brakes: Disc condition: New wheelSize: 24 weight: 11 numGears: 11  brand: Royalbaby color: green
+type: Hybrid user: Men frame: Steel brakes: Disc condition: New wheelSize: 24 weight: 13 numGears: 13  brand: Royalbaby color: black
+type: Hybrid user: Women frame: Carbon brakes: Cantilever condition: New wheelSize: 24 weight: 5 numGears: 18  brand: Razor color: grey
+
+Customer: Shashank Sathyanarayana
+Phone: (444) 593-4750
+Email: Sathyanarayana@email.net
+Number of Bikes: 0
+
+Customer: Darius Saunders
+Phone: (722) 165-4031
+Email: Saunders@email.net
+Number of Bikes: 3
+type: Road user: Girls frame: Steel brakes: Caliper condition: New wheelSize: 24 weight: 17 numGears: 7  brand: Roadmaster color: orange
+type: Cruiser user: Girls frame: Carbon brakes: Disc condition: New wheelSize: 24 weight: 15 numGears: 13  brand: Royalbaby color: yellow
+type: Road user: Girls frame: Steel brakes: Cantilever condition: New wheelSize: 24 weight: 6 numGears: 3  brand: Northwoods color: green
+
+Customer: Zachary Savage
+Phone: (569) 784-3526
+Email: Savage@email.net
+Number of Bikes: 0
+
+Customer: Judah Sebastian
+Phone: (528) 751-8091
+Email: Sebastian@email.net
+Number of Bikes: 2
+type: Cruiser user: Men frame: Carbon brakes: Cantilever condition: New wheelSize: 24 weight: 1 numGears: 12  brand: GMC color: grey
+type: Mountain user: Women frame: Carbon brakes: Caliper condition: New wheelSize: 24 weight: 4 numGears: 4  brand: GMC color: red
+
+Customer: Priyaj Shah
+Phone: (229) 937-1348
+Email: Shah@email.net
+Number of Bikes: 0
+
+Customer: Sudhansu Shrestha
+Phone: (475) 360-0514
+Email: Shrestha@email.net
+Number of Bikes: 1
+type: Mountain user: Boys frame: Carbon brakes: Cantilever condition: New wheelSize: 24 weight: 9 numGears: 3  brand: Roadmaster color: green
+
+Customer: Todd Slunt
+Phone: (793) 984-9158
+Email: Slunt@email.net
+Number of Bikes: 2
+type: Mountain user: Girls frame: Carbon brakes: Caliper condition: New wheelSize: 24 weight: 14 numGears: 22  brand: Schwinn color: pink
+type: Hybrid user: Men frame: Aluminum brakes: LinearPull condition: New wheelSize: 24 weight: 14 numGears: 26  brand: Takara color: red
+
+Customer: Tristan Smith
+Phone: (920) 128-8682
+Email: Smith@email.net
+Number of Bikes: 1
+type: Mountain user: Women frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 9 numGears: 4  brand: Schwinn color: white
+
+Customer: Nathaniel Stearrett
+Phone: (662) 670-6762
+Email: Stearrett@email.net
+Number of Bikes: 0
+
+Customer: Gabrielle Strandquist
+Phone: (569) 193-0831
+Email: Strandquist@email.net
+Number of Bikes: 1
+type: Hybrid user: Women frame: Carbon brakes: Cantilever condition: New wheelSize: 24 weight: 11 numGears: 10  brand: Takara color: yellow
+
+Customer: Davis Tran
+Phone: (474) 295-6327
+Email: Tran@email.net
+Number of Bikes: 2
+type: Cruiser user: Girls frame: Steel brakes: Cantilever condition: New wheelSize: 24 weight: 2 numGears: 8  brand: Schwinn color: orange
+type: Hybrid user: Women frame: Carbon brakes: Cantilever condition: New wheelSize: 24 weight: 5 numGears: 18  brand: Razor color: grey
+
+Customer: Justin Tran
+Phone: (754) 884-0276
+Email: Tran@email.net
+Number of Bikes: 3
+type: Hybrid user: Women frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 13 numGears: 5  brand: Schwinn color: white
+type: Mountain user: Girls frame: Steel brakes: Caliper condition: New wheelSize: 24 weight: 8 numGears: 15  brand: Razor color: white
+type: Cruiser user: Girls frame: Steel brakes: Cantilever condition: New wheelSize: 24 weight: 2 numGears: 8  brand: Schwinn color: orange
+
+Customer: Minh Tran
+Phone: (561) 673-8568
+Email: Tran@email.net
+Number of Bikes: 2
+type: Mountain user: Boys frame: Steel brakes: Cantilever condition: New wheelSize: 24 weight: 3 numGears: 8  brand: Royalbaby color: orange
+type: Road user: Girls frame: Aluminum brakes: LinearPull condition: New wheelSize: 24 weight: 18 numGears: 12  brand: Takara color: green
+
+Customer: Valerie Tran
+Phone: (732) 740-7432
+Email: Tran@email.net
+Number of Bikes: 3
+type: Mountain user: Girls frame: Carbon brakes: Caliper condition: New wheelSize: 24 weight: 14 numGears: 22  brand: Schwinn color: pink
+type: Road user: Men frame: Aluminum brakes: Caliper condition: New wheelSize: 24 weight: 10 numGears: 24  brand: Northwoods color: orange
+type: Mountain user: Girls frame: Aluminum brakes: Caliper condition: New wheelSize: 24 weight: 3 numGears: 4  brand: Takara color: red
+
+Customer: Austin Underwood
+Phone: (435) 510-5290
+Email: Underwood@email.net
+Number of Bikes: 1
+type: Cruiser user: Men frame: Aluminum brakes: Disc condition: New wheelSize: 24 weight: 11 numGears: 16  brand: Vilano color: orange
+
+Customer: Enrique Valentin
+Phone: (290) 491-3861
+Email: Valentin@email.net
+Number of Bikes: 1
+type: Hybrid user: Men frame: Steel brakes: Caliper condition: New wheelSize: 24 weight: 20 numGears: 4  brand: GMC color: green
+
+Customer: Seth Vickers
+Phone: (951) 320-9826
+Email: Vickers@email.net
+Number of Bikes: 3
+type: Mountain user: Girls frame: Aluminum brakes: Cantilever condition: New wheelSize: 24 weight: 11 numGears: 2  brand: Takara color: grey
+type: Hybrid user: Men frame: Carbon brakes: Disc condition: New wheelSize: 24 weight: 10 numGears: 1  brand: Royalbaby color: pink
+type: Cruiser user: Women frame: Carbon brakes: Caliper condition: New wheelSize: 24 weight: 5 numGears: 14  brand: Firmstrong color: grey
+
+Customer: Jack Vu
+Phone: (454) 737-9809
+Email: Vu@email.net
+Number of Bikes: 1
+type: Mountain user: Men frame: Carbon brakes: LinearPull condition: New wheelSize: 24 weight: 14 numGears: 7  brand: Royalbaby color: yellow
+
+Customer: Yilong Wang
+Phone: (268) 756-4617
+Email: Wang@email.net
+Number of Bikes: 1
+type: Mountain user: Girls frame: Aluminum brakes: Cantilever condition: New wheelSize: 24 weight: 11 numGears: 2  brand: Takara color: grey
+
+Customer: Zeshan Wang
+Phone: (476) 771-3005
+Email: Wang@email.net
+Number of Bikes: 1
+type: Road user: Women frame: Carbon brakes: Caliper condition: New wheelSize: 24 weight: 4 numGears: 20  brand: Northwoods color: black
+
+Customer: Charles Wells
+Phone: (623) 109-8189
+Email: Wells@email.net
+Number of Bikes: 2
+type: Mountain user: Boys frame: Carbon brakes: Cantilever condition: New wheelSize: 24 weight: 5 numGears: 0  brand: Razor color: blue
+type: Hybrid user: Men frame: Aluminum brakes: LinearPull condition: New wheelSize: 24 weight: 17 numGears: 13  brand: Razor color: black
+
+Customer: Nathan West
+Phone: (498) 355-8227
+Email: West@email.net
+Number of Bikes: 2
+type: Road user: Girls frame: Steel brakes: Cantilever condition: New wheelSize: 24 weight: 6 numGears: 3  brand: Northwoods color: green
+type: Mountain user: Women frame: Carbon brakes: Caliper condition: New wheelSize: 24 weight: 4 numGears: 4  brand: GMC color: red
+
+Customer: Darius Wintz
+Phone: (745) 197-5336
+Email: Wintz@email.net
+Number of Bikes: 3
+type: Mountain user: Boys frame: Steel brakes: Disc condition: New wheelSize: 24 weight: 11 numGears: 15  brand: Schwinn color: grey
+type: Road user: Boys frame: Steel brakes: Caliper condition: New wheelSize: 24 weight: 17 numGears: 5  brand: Razor color: orange
+type: Hybrid user: Girls frame: Carbon brakes: Disc condition: New wheelSize: 24 weight: 19 numGears: 4  brand: Vilano color: yellow
+
+Customer: Nicole Zakhary
+Phone: (621) 702-1039
+Email: Zakhary@email.net
+Number of Bikes: 3
+type: Road user: Men frame: Steel brakes: Cantilever condition: New wheelSize: 24 weight: 11 numGears: 16  brand: Northwoods color: black
+type: Hybrid user: Men frame: Steel brakes: Caliper condition: New wheelSize: 24 weight: 19 numGears: 6  brand: Firmstrong color: white
+type: Road user: Girls frame: Steel brakes: LinearPull condition: New wheelSize: 24 weight: 7 numGears: 12  brand: Schwinn color: pink
+
+Customer: Suzanne Zhou
+Phone: (740) 642-5085
+Email: Zhou@email.net
+Number of Bikes: 0
+
