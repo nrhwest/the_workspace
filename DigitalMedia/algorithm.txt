@@ -1,0 +1,179 @@
+changing stuff got git
+
+// algorithm for creating objects from the file & adding those objects to a list
+- create the list of objects
+- create song and image object
+- read in the file
+- validate the file
+- set file to fileReader
+- while fileReader has nextLine
+	- string line = nextLine of fileReader
+	- txtScan = new Scanner of the line
+		- if txtScan next contains S
+		- Use StringTokenizer (tokens) to split line by colon  ----> trim whitespace
+		- while tokens has more tokens
+			- setTitle to the next token
+			- setArtist to the next token
+			- setAlbum to the next token
+			- setSize to the next token
+			- add newly created song to the list of objects
+		- create a new song object
+		- if txtScan next contains I
+		- Use String Tokenizer to split line by colon ---> trim
+		- while tokens has more tokens
+			- setName to the next token
+			- setWidth to the next token
+			- setHeight to the next token
+			- setSize to the next token
+			- add newly created image to the list of objects
+		- create a new song object
+	- close txtScan
+- close fileReader
+
+
+// create two hashsets for song and image
+
+// remember to check for the artist name, if the artist's name equals the object's name, store the song in
+	in an array of albums for that artist
+
+// algorithm for sorting and searching a list of objects
+- prompt user to enter S or I
+	- A prints all objects in collection
+	- q exits program
+- set user input to a string
+- while the user input is not q
+	- if input equals S
+		-  cycle through collection of objects
+			- if obj is instance of Song
+				- compare object to object, for sorting, *** compareTo(?)
+				- print obj
+	-  if input equals I
+		- cycle through collection of objects
+			- if obj is instance of Image
+				- compare object to object, for sorting, ***compareTo(?)
+				- print obj
+	- if input equals A
+		print the collection
+
+
+			ENHANCED FOR LOOP, CHECKING THE INSTANCE OF THE OBJECT,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------
+// if (line.charAt(0) == 'I') {
+				// String[] properties = line.split(":");
+				// String[] trimmed = new String[properties.length];
+				// for (int i = 0; i < properties.length; i++) {
+				// trimmed[i] = properties[i].trim();
+				// }
+				// image.setName(trimmed[1]);
+				// image.setWidth(Integer.parseInt(trimmed[2]));
+				// image.setHeight(Integer.parseInt(trimmed[3]));
+				// String number = trimmed[4];
+				// number = number.replaceAll(",", "");
+				// long size = Long.parseLong(number);
+				// song.setSize(size);
+				// collection.add(image);
+				// // image = new Image(null, 0, 0, 0);
+				// }
+				// song = new Song(null, 0, null, null);
+				// image = new Image(null, 0, 0, 0);
+
+-------------------------------------------
+
+				// song.setSize(Long.parseLong(trimmed[4]));
+			    // System.out.println(song);
+
+
+				// StringTokenizer tokens = new StringTokenizer(line, ":");
+				// while (tokens.hasMoreTokens()) {
+				// Song song1 = new Song (tokens.nextToken(),0,null,null);
+				// song.setName(tokens.nextToken());
+				// song.setArtist(tokens.nextToken());
+				// song.setAlbum(tokens.nextToken());
+				// System.out.println(song);
+				// }
+
+
+	// creating Song objects using StringTokenizer method
+				if (line.charAt(0) == 'S') {
+					String holder = null;
+					StringTokenizer tokens = new StringTokenizer (line, ":");
+					while (tokens.hasMoreTokens()) {
+						holder = tokens.nextToken();
+						Song song = new Song(tokens.nextToken().trim(), tokens.nextToken().trim(),
+							tokens.nextToken().trim(), Long.parse(tokens.nextToken().trim()));
+----------------------------------------------
+// validates and sets the name of the object
+	public void setName(String n) {
+		if (!n.matches("^[\\p{L} . '-]+$"))
+			throw new IllegalArgumentException("File must have a name!");
+		else
+			name = n;
+	}
+
+ ------------------------------------------
+	// validates and sets the name of the object
+	public void setName(String n) {
+		if (n == null)
+			throw new NullPointerException("Filename cannot be null!");
+		int dotCount = 0;
+		for (int x = 0; x < n.length(); x++){
+			if (n.charAt(x).equals("."))
+				dotCount++;
+		}
+		if (dotCount != 1) {
+			System.out.println(n + "'s dotCount = " + dotCount);
+			throw new IllegalArgumentException("Invalid filename!");
+		} else {
+			name = n;
+		}
+	}
+
+	----------------------------------
+	//		DigitalMedia dm1 = new DigitalMedia("text.jpg", 3241);
+//		DigitalMedia dm2 = new DigitalMedia("sound.jpg", 4321);
+//		DigitalMedia dm3 = new DigitalMedia("text.jpg", 3241);
+//
+//		boolean flag = false;
+//
+//		System.out.println("Testing for Symmetric: " + dm1.equals(dm3));
+//		if (dm1.equals(dm2) && dm2.equals(dm3) && dm1.equals(dm3)) {
+//			flag = true;
+//			System.out.println("Testing for Transitive: " + flag);
+//		} else {
+//			System.out.println("Testing for Transitive: " + flag);
+//		}
+//		System.out.println("Testing for Consistency: " );
+//
+
+-------------------------------------
+switch (dcFormatted) {
+			case "1": dcFormatted = dcFormatted.replaceFirst("1", "January");
+				break;
+			case "2": dcFormatted = dcFormatted.replace("2", "Feburary");
+				break;
+//			default: System.out.println("Invalid date");
+//				break;
+
+
+		}
