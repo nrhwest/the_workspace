@@ -1,0 +1,41 @@
+hi
+hello
+goodbye
+see you tomorrow
+bye
+bye
+bye
+let's make a lego game
+
+
+Scanner keyboard = new Scanner(System.in);
+		System.out.println("What's the file name? (Please include file type): ");
+		String fileName = keyboard.nextLine();
+		
+		FileReader file = new FileReader("test.txt");
+		Scanner inputFile = new Scanner(file);
+		
+		int lineNumber = 0;
+		
+		do {
+			lineNumber++;
+			System.out.println(lineNumber + ". " + inputfile);
+		} while (file.);
+		
+Scanner keyboard = new Scanner(System.in);
+		System.out.println("What's the file name? (Please include file type): ");
+		String fileName = keyboard.nextLine();
+		
+		File file = new File(fileName);
+		Scanner inputFile = new Scanner(file);
+		Scanner outputFile = new Scanner(inputFile);
+		
+		if(!file.exists()) {
+			System.out.println("File doesn't exist! Try again");
+		}
+		
+		int lineNumber = 0;
+		do {
+			lineNumber++;
+			System.out.println(lineNumber + ". " + inputFile);
+		} while (inputFile.hasNextLine());
