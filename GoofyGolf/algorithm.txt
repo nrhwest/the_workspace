@@ -1,0 +1,16 @@
+- Command line arguments: Prompts user for arguments (args), passes to main method
+- App will read a text file – scan through file – set Par values to different ages
+	calculate each players overall score based on their age
+
+- Input file will be passed through args to main method
+- Set args[0] to new File
+- Create int matrix to hold file data
+- Scan through file (fileReader)
+	- if fileReader has next whitespace
+		- Create a string array by splitting spaces
+			- Set matrix to length of string array
+			- Iterate through length of string array
+				- Set array indexes (values) to matrix at [0][col] // Deals with columns 
+				- Parse data from string array
+	- Repeat for rows, but set array indexes to matrix[rows][col] // Deals with row
+	

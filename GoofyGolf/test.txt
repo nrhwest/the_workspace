@@ -1,0 +1,18 @@
+while (fileReader.hasNextLine()) {
+			Scanner line = new Scanner(whitespace);
+			if (line.hasNext()) {
+				String[] array = line.next().split(" ");
+				System.out.println(array[0]); 
+				size = array.length; 
+				matrix = new String [size][size];
+				for (int col = 0; col < array.length; col++) {
+					matrix[col] = new String[col];
+					matrix[0][col] = Integer.parseInt(array[col]);
+				}
+			}
+			for (int row = 1; row < matrix.length; row++) {
+				String[] array = line.nextLine().split(" ");
+				for (int col = 0; col < array.length; col++) {
+					matrix[row][col] = Integer.parseInt(array[col]);
+				}
+			}
